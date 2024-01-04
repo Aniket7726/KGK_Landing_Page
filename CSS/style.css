@@ -1,0 +1,266 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: SF Pro Display;
+  src: url(../CSS/SFPRODISPLAYREGULAR.OTF);
+}
+
+
+nav a{
+color: #282828 !important;
+font-family: SF Pro Display;
+font-size: 20px !important;
+font-style: normal;
+font-weight: 500 !important;
+line-height: 26px; /* 130% */
+letter-spacing: 0.4px;
+margin: 0px 20px;
+}
+
+.about{
+  background: #891A3F;
+  height: 600px;
+}
+
+.about h2{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 40% */
+font-variant: all-small-caps;
+letter-spacing: 1.3px;
+}
+
+.about p{
+  color: #FFF;
+font-family: SF Pro Display;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: 37px; /* 160.87% */
+letter-spacing: 0.46px;
+padding-top: 47px;
+}
+
+.about button{
+  width: fit-content;
+  border-radius: 20px;
+background: #EFEFEF;
+padding: 5px 29px;
+border: none;
+}
+
+.about button a{
+  color: #891A3F;
+font-family: SF Pro Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 41.786px; /* 95.577% */
+letter-spacing: 0.874px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.about .right-box{
+  background-image: url(../Images/Mask_group.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  right: 0px !important;
+}
+
+.about_image{
+  position: relative;
+  top: -85px;
+  right: 50px;
+}
+
+.about_image img{
+  height: 638px;
+}
+
+.about .left-box{
+  padding-left: 90px;
+}
+
+.amenities p{
+  color: #282828;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 26.724px; /* 106.897% */
+letter-spacing: 5.75px;
+text-transform: capitalize;
+}
+
+.amenities h2{
+  color: #891A3F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 61.243px; /* 102.072% */
+text-transform: uppercase;
+}
+
+.amenities .bottom{
+  background: #E2E2E2;
+}
+
+.design{
+  position: relative;
+}
+
+.design .image-1{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 5%;
+}
+
+.design .image-2{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 5%;
+}
+
+.design h2{
+  font-family: SF Pro Text;
+font-size: 45px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: center;
+color: #891A3F;
+}
+
+.design p{
+  font-family: SF Pro Text;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #161616;
+}
+
+.luxuary{
+  background-image: url(../Images/9531329_494.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.luxuary img{
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.luxuary .right-box{
+  padding-left: 90px;
+}
+
+.luxuary h2{
+  font-family: SF Pro Text;
+font-size: 47px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+color: #282828;
+}
+
+.luxuary h2 span{
+  font-family: SF Pro Text;
+font-size: 47px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+color: #891A3F;
+}
+
+.luxuary p{
+  font-family: SF Pro Text;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+font-family: SF Pro Text;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+.luxuary li{
+  font-family: SF Pro Text;
+font-size: 19px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+.value{
+  background-image: url(../Images/9531329_494.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.value img{
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.value h2{
+  font-family: SF Pro Text;
+font-size: 45px;
+font-weight: 800;
+line-height: 67px;
+letter-spacing: 0em;
+text-align: left;
+color: #891A3F;
+}
+
+.value p{
+  font-family: SF Pro Text;
+font-size: 22px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+.gallery{
+  color: #E1E1E1;
+}
+
+.gallery h2{
+  font-family: SF Pro Text;
+font-size: 63px;
+font-weight: 800;
+line-height: 84px;
+letter-spacing: 0em;
+text-align: left;
+color: #891A3F;
+}
