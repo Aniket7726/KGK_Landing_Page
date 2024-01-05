@@ -14,7 +14,7 @@
 nav a{
 color: #282828 !important;
 font-family: SF Pro Text;
-font-size: 20px !important;
+font-size: 18px !important;
 font-style: normal;
 font-weight: 500 !important;
 line-height: 26px; /* 130% */
@@ -261,27 +261,6 @@ line-height: 34px;
 letter-spacing: 0em;
 text-align: left;
 color: #161616;
-}
-
-.gallery{
-  background-color: #891A3F;
-}
-
-.gallery .bg_image{
-  background: url(../Images/25[Converted]2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.gallery h2{
-  font-family: SF Pro Text;
-font-size: 63px;
-font-weight: 800;
-
-letter-spacing: 0em;
-text-align: left;
-color: #fff;
 }
 
 .location{
