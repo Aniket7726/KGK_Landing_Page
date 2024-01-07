@@ -110,6 +110,23 @@ text-transform: uppercase;
   background: #E2E2E2;
 }
 
+.mid-banner .container-fluid{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.4)), url(../Images/image\ 12.png) center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mid-banner h2{
+  color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.39);
+font-family: SF Pro Text;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+}
+
 .design{
   position: relative;
 }
@@ -400,4 +417,36 @@ font-weight: 600;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
+}
+
+.form h4{
+  color: #FFF;
+font-family: SF Pro Text;
+font-size: 25.474px;
+font-style: normal;
+font-weight: 600;
+line-height: 53.263px; /* 209.091% */
+text-transform: uppercase;
+}
+
+.form span{
+  color: #FFF;
+font-family: SF Pro Text;
+font-size: 20.842px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.986px; /* 143.87% */
+}
+
+footer{
+  background-color: #fff;
+  padding: 10px 0px;
+}
+
+footer p{
+  color: #000;
+font-family: SF Pro Text;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
 }
