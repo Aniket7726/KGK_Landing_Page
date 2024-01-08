@@ -134,6 +134,10 @@ font-weight: 700;
 text-transform: uppercase;
 }
 
+.mid-banner img{
+  border-radius: 50px;
+}
+
 .design{
   position: relative;
 }
