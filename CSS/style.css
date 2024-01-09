@@ -231,9 +231,8 @@ color: #282828;
 }
 
 .luxuary h2 span{
-  font-family: SF Pro Text;
+  font-family: outfit !important;
 font-size: 47px;
-font-weight: 700;
 letter-spacing: 0em;
 text-align: left;
 color: #891A3F;
@@ -470,8 +469,8 @@ text-transform: uppercase;
 
 .form span{
   color: #FFF;
-font-family: SF Pro Text;
-font-size: 20.842px;
+font-family: outfit;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 29.986px; /* 143.87% */
