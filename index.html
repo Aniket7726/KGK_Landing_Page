@@ -47,7 +47,7 @@
     <header>
         <nav class="navbar bg-body-tertiary navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#home">
                     <img src="Images/logo.png" width="100" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -63,25 +63,25 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1">
                             <li class="nav-item mx-4">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#about">About Us</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" aria-current="page" href="#">Amenities</a>
+                                <a class="nav-link" aria-current="page" href="#amenities">Amenities</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Floor Plans</a>
+                                <a class="nav-link" href="#floors">Floor Plans</a>
                             </li>
                             <li class="nav-item mx-4">
                                 <a class="nav-link" aria-current="page" href="#">Gallery</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Location</a>
+                                <a class="nav-link" href="#location">Location</a>
                             </li>
                             <li class="nav-item mx-4">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +90,7 @@
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="home">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </section>
-        <section class="about pt-5">
+        <section class="about pt-5" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 col-12 d-flex justify-content-center flex-column">
@@ -113,7 +113,7 @@
                                 servant quarter & 4 BHK with servant quarter, ranging from 1382 Sq. Ft. to 2674 Sq. Ft.
                                 The project comfortably connects to all important places of the city without
                                 compromising its uniqueness.</p>
-                            <button><a href="">Know More</a></button>
+                            <button><a href="#contact">Know More</a></button>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-6 col-12 right_box mt-5 my-lg-0">
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </section>
-        <section class="amenities py-5" style="background: #E2E2E2;">
+        <section class="amenities py-5" id="amenities" style="background: #E2E2E2;">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -196,7 +196,7 @@
             </div>
         </section>
 
-        <section class="floor">
+        <section class="floor" id="floors">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -350,7 +350,7 @@
                             <li>Location : Vande Mataram Road, Mansarovar</li>
                             <li>RERA Reg. No. : RAJ/P/2022/1884 (www.rera.rajasthan.gov.in)</li>
                         </ul>
-                        <button><a href="">Ask For Price</a></button>
+                        <button><a href="#contact">Ask For Price</a></button>
                     </div>
                     <div class="col-md-6 left-box">
                         <img src="Images/image_13.png" width="100%" height="auto" alt="">
@@ -378,7 +378,7 @@
 
 
 
-        <section class="location py-5">
+        <section class="location py-5" id="location">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -470,7 +470,7 @@
             </div>
         </section>
         <div class="wide_box"></div>
-        <section class="form">
+        <section class="form" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -493,6 +493,8 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="form_box">
+                            <img src="Images/Group.png" alt="">
+                            <h5>Get in touch</h5>
                             <form action="">
                                 <div class="row mt-4">
                                     <input type="text" placeholder="Name" class="col-12">
