@@ -51,6 +51,43 @@ line-height: 26px; /* 130% */
 letter-spacing: 0.4px;
 }
 
+.banner{
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(../Images/Banner.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.banner .col-12{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.banner h2{
+  font-family: outfit;
+  color: #FFFFFF;
+font-size: 60px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0.02em;
+text-align: right;
+}
+
+.banner span{
+font-family: outfit;
+font-size: 70px;
+font-weight: 700;
+line-height: 100px;
+letter-spacing: 0.02em;
+text-align: right;
+color: #FFFFFF;
+
+}
+
 .about{
   background: #891A3F;
 }
@@ -196,6 +233,11 @@ text-transform: uppercase;
   border-radius: 50px;
 }
 
+.floor .img_box img{
+  width: 250px;
+  height:250px;
+}
+
 .floor h5{
   color: #891A3F;
   font-family: outfit;
@@ -209,6 +251,16 @@ text-align: center;
   padding: 0px;
   margin: 0px;
 }
+
+.floor .nav-pills .nav-link .active{
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* .floor button{
+  background-color: #fff !important;
+  color: #000 !important;
+} */
 
 .design{
   position: relative;

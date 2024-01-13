@@ -31,6 +31,15 @@
         .swiper-slide img {
             display: block;
         }
+
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: #000 !important;
+            background-color: #fff !important;
+        }
+
+        .floor .nav-link {
+            color: #fff !important;
+        }
     </style>
 </head>
 
@@ -82,8 +91,14 @@
     </header>
     <main>
         <section class="banner">
-            <div class="container-fluid px-0">
-                <img src="Images/Banner.png" width="100%" height="auto" alt="">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>WHERE</h2>
+                        <h2>LUXURY MEETS</h2>
+                        <span>ELEGANCE</span>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="about pt-5">
@@ -188,20 +203,22 @@
                         <h2 class="text-white">Floor Plans</h2>
                     </div>
                     <div class="col-12 d-flex flex-column align-items-center">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <ul class="nav nav-pills mb-3 d-flex gap-4" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-home" style="background-color: #891A3F;color:#fff;" role="tab" aria-controls="pills-home"
-                                    aria-selected="true">3 BHK</button>
+                                <button class="nav-link btn_link active" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">3BHK</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-profile" style="background-color: #891A3F;color:#fff;" role="tab"
-                                    aria-controls="pills-profile" aria-selected="false">4 BHK</button>
+                                <button class="nav-link btn_link" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">4BHK</button>
                             </li>
+
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                aria-labelledby="pills-home-tab" tabindex="0">
                                 <div class="d-flex justify-content-evenly flex-wrap">
                                     <div class="img_box">
                                         <img src="Images/3bhk.png" alt="">
@@ -241,28 +258,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                                <div class="d-flex gap-3 flex-wrap">
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="d-flex justify-content-evenly gap-2 flex-wrap">
                                     <div class="img_box">
-                                        <img src="Images/4bhk1.png" class="img-fluid" alt="">
+                                        <img src="Images/4bhk1.png" alt="">
                                         <h5>4 BHK+S (Type-2)</h5>
                                         <p>BUA-2032.57 Sq. Ft.</p>
                                         <p>SBUA-2642.34 Sq. Ft.</p>
                                     </div>
                                     <div class="img_box">
-                                        <img src="Images/4bhk2.png" class="img-fluid" alt="">
+                                        <img src="Images/4bhk2.png" alt="">
                                         <h5>4 BHK+S (Type-3)</h5>
                                         <p>BUA-2006.09 Sq. Ft.</p>
                                         <p>SBUA-2607.92 Sq. Ft</p>
                                     </div>
                                     <div class="img_box">
-                                        <img src="Images/4bhk3.png" class="img-fluid" alt="">
+                                        <img src="Images/4bhk3.png" alt="">
                                         <h5>4 BHK+S (Type-4)</h5>
                                         <p>BUA-2006.57 Sq. Ft.</p>
                                         <p>SBUA-2608.54 Sq. Ft.</p>
                                     </div>
                                     <div class="img_box">
-                                        <img src="Images/4bhk4.png" class="img-fluid" alt="">
+                                        <img src="Images/4bhk4.png" alt="">
                                         <h5>4 BHK+S (Type-5)</h5>
                                         <p>BUA-2060.34 Sq. Ft.</p>
                                         <p>SBUA-2678.44 Sq. Ft</p>
@@ -427,10 +445,7 @@
                     <div class="col-md-4 my-4 text-center">
                         <div class="box py-4 px-3">
                             <img src="Images/Frame.png" height="45" width="auto" alt="">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
-                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
+                            <p>Project is already gathering a lot of appreciation for its location, planning and design. If anyone is looking for a real luxury home than this is the one. KGK Realty's background of more than a decade along with its superior performance parameters confirms the credibility which is the key in real estate.</p>
                             <h4>Saurbh Joshi</h4>
                             <h6>Delhi</h6>
                         </div>
@@ -438,10 +453,7 @@
                     <div class="col-md-4 text-center">
                         <div class="box py-5 px-3">
                             <img src="Images/Frame.png" height="53" width="auto" alt="">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
-                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
+                            <p>Amazing property located right in heart of Jaipur in Mansarovar area. Visited the sales office recently and was delighted by the staff. The site plan and the features look promising.</p>
                             <h4>Shivraj Singh</h4>
                             <h6>Jaipur,Rajasthan</h6>
                         </div>
@@ -449,10 +461,7 @@
                     <div class="col-md-4 my-4 text-center">
                         <div class="box py-4 px-3">
                             <img src="Images/Frame.png" height="45" width="auto" alt="">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
-                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage</p>
+                            <p>It's premium location and worth buying as per the amenities and facilities it's luxury lifestyle which KGK is offering here with a huge bunch of Amenities. I recommend visiting it once</p>
                             <h4>Vikram</h4>
                             <h6>Bikaner Rajasthan</h6>
                         </div>
@@ -476,6 +485,7 @@
                                 <p>Vande Matram Road, Mansarovar</p>
                             </div>
                             <div class="col-12 col-lg-6">
+                                <h4>Phone Number</h4>
                                 <img src="Images/phone-call (1) 1.png" alt="">
                                 <span>+91-9024 300 400</span>
                             </div>
@@ -524,7 +534,7 @@
                 clickable: true,
             },
             autoplay: {
-                delay: 2500,
+                delay: 1000,
                 disableOnInteraction: false,
             },
             breakpoints: {
