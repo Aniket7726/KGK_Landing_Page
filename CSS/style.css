@@ -179,6 +179,37 @@ text-transform: uppercase;
   padding: 50px 0px;
 }
 
+@media (max-width:796px) {
+  .floor{
+    background: #891A3F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+  }
+}
+
+.floor .img_box{
+  background: #F3F3F3;
+  box-shadow: 0px 0px 18.89274024963379px 0px #00000066;
+  padding: 30px;
+  margin: 10px 0px;
+  border-radius: 50px;
+}
+
+.floor h5{
+  color: #891A3F;
+  font-family: outfit;
+font-size: 28px;
+font-weight: 700;
+margin-top: 10px;
+text-align: center;
+}
+
+.floor p{
+  padding: 0px;
+  margin: 0px;
+}
+
 .design{
   position: relative;
 }
