@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: outfit;
-  src: url(../CSS/Outfit-Regular.ttf);
+  font-family: outfit_head;
+  src: url(../CSS/SF_pro/SF-Pro-Display-Regular.otf);
 }
 
 @font-face {
-  font-family: outfit_head;
-  src: url(../CSS/MarcellusSC-Regular.ttf);
+  font-family: outfit;
+  src: url(../CSS/SF_pro/SF-Pro-Display-Regular.otf);
 }
 
 p{
@@ -231,7 +231,7 @@ text-transform: uppercase;
   box-shadow: 0px 0px 18.89274024963379px 0px #00000066;
   padding: 30px;
   margin: 10px 0px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .floor .img_box img{
@@ -484,6 +484,7 @@ color: #4F4F4F;
 
 .review .box{
   border-radius: 32.87px;
+  box-shadow: 0px 0px 40px 0px #0000001C;
 }
 
 .review h4{
@@ -599,7 +600,7 @@ line-height: 29.986px; /* 143.87% */
    border: 1px solid #000000;
    /* border: none; */
   padding: 30px 30px;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .form .form_box form{
