@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: outfit_head;
-  src: url(../CSS/SF_pro/SF-Pro-Display-Regular.otf);
+  src: url(../CSS/Outfit-Regular.ttf);
 }
 
 @font-face {
   font-family: outfit;
-  src: url(../CSS/SF_pro/SF-Pro-Display-Regular.otf);
+  src: url(../CSS/MarcellusSC-Regular.ttf);
 }
 
 p{
