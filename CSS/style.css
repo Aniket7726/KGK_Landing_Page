@@ -88,6 +88,29 @@ color: #FFFFFF;
 
 }
 
+@media (max-width:576px) {
+  .banner h2{
+    font-family: outfit;
+    color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: 0.02em;
+  text-align: right;
+  }
+  
+  .banner span{
+  font-family: outfit;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  text-align: right;
+  color: #FFFFFF;
+  
+  }
+}
+
 .about{
   background: #891A3F;
 }
