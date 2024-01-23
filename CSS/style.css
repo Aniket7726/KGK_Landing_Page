@@ -52,7 +52,7 @@ letter-spacing: 0.4px;
 }
 
 .banner{
-  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(../Images/Banner.png);
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../Images/Banner.png);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@ letter-spacing: 0.4px;
   font-family: outfit;
   color: #FFFFFF;
 font-size: 60px;
-font-weight: 700;
+font-weight: 100;
 line-height: 64px;
 letter-spacing: 0.02em;
 text-align: right;
@@ -80,7 +80,7 @@ text-align: right;
 .banner span{
 font-family: outfit;
 font-size: 70px;
-font-weight: 700;
+font-weight: 100;
 line-height: 100px;
 letter-spacing: 0.02em;
 text-align: right;
@@ -193,7 +193,7 @@ text-transform: capitalize !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 600px;
+  height: auto;
 }
 
 .mid-banner h2{
