@@ -32,7 +32,8 @@
             display: block;
         }
 
-        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
             color: #000 !important;
             background-color: #fff !important;
         }
@@ -54,7 +55,7 @@
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas offcanvas-end" style="z-index: 5000;" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
@@ -90,8 +91,13 @@
         </nav>
     </header>
     <main>
+
+        <div class="call_btn d-block d-sm-none d-md-none d-lg-none d-xl-none">
+            <button><a href="#contact">Know More</a></button>
+        </div>
+
         <section class="banner" id="home">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <h2>WHERE</h2>
@@ -101,11 +107,16 @@
                 </div>
             </div>
         </section>
+
+        <!-- <section class="test_banner">
+            <img src="Images/Banner.png" width="100%" height="100%" alt="">
+        </section> -->
+
         <section class="about pt-5" id="about">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 col-lg-6 col-12 d-flex justify-content-center flex-column">
-                        <div class="left-box ps-lg-5 ps-xl-5">
+                        <div class="left-box ps-lg-5 ps-xl-5 mb-5">
                             <h2>About Us</h2>
                             <p>Akshar By KGK Realty is a residential project, located at Mansarovar Extension, Jaipur.
                                 It is a high-rise residential project having 3-4 BHK luxurious apartments. It comprises
@@ -116,7 +127,8 @@
                             <button><a href="#contact">Know More</a></button>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-12 right_box mt-5 my-lg-0">
+                    <div
+                        class="col-md-12 col-lg-6 col-12 right_box d-none d-sm-none d--md-block d-lg-block d-xl-block mt-5 my-lg-0">
                         <img src="Images/men.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -211,56 +223,120 @@
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link btn_link" id="pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-profile" role="tab"
-                                    aria-controls="pills-profile" aria-selected="false">4BHK</button>
+                                    data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile"
+                                    aria-selected="false">4BHK</button>
                             </li>
 
                         </ul>
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                                 aria-labelledby="pills-home-tab" tabindex="0">
-                                <div class="d-flex justify-content-evenly flex-wrap">
-                                    <div class="img_box">
-                                        <img src="Images/3bhk.png" alt="">
-                                        <h5>3 BHK+s (Type-1)</h5>
-                                        <p>BUA-1671.51 Sq. Ft</p>
-                                        <p>SBUA-2172.96 Sq. Ft.</p>
+                                <div class="row d-none d-sm-flex d-md-flex d-xl-flex d-lg-flex">
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk.png" alt="">
+                                            <h5>3 BHK+s (Type-1)</h5>
+                                            <p>BUA-1671.51 Sq. Ft</p>
+                                            <p>SBUA-2172.96 Sq. Ft.</p>
+                                        </div>
                                     </div>
-                                    <div class="img_box">
-                                        <img src="Images/3bhk2.png" alt="">
-                                        <h5>3 BHK+s (Type-2)</h5>
-                                        <p>BUA-1671.51 Sq. Ft.</p>
-                                        <p>SBUA-2172.96 Sq. Ft.</p>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk2.png" alt="">
+                                            <h5>3 BHK+s (Type-2)</h5>
+                                            <p>BUA-1671.51 Sq. Ft.</p>
+                                            <p>SBUA-2172.96 Sq. Ft.</p>
+                                        </div>
                                     </div>
-                                    <div class="img_box">
-                                        <img src="Images/3bhk3.png" alt="">
-                                        <h5>3 BHK (Type-1)</h5>
-                                        <p>BUA-1254.06 Sq. Ft.</p>
-                                        <p>SBUA-1630.28 Sq. Ft.</p>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk3.png" alt="">
+                                            <h5>3 BHK (Type-1)</h5>
+                                            <p>BUA-1254.06 Sq. Ft.</p>
+                                            <p>SBUA-1630.28 Sq. Ft.</p>
+                                        </div>
                                     </div>
-                                    <div class="img_box">
-                                        <img src="Images/3bhk4.png" alt="">
-                                        <h5>3 BHK (Type-2)</h5>
-                                        <p>BUA-1254.06 Sq. Ft. </p>
-                                        <p>SBUA-1630.28 Sq. Ft</p>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk4.png" alt="">
+                                            <h5>3 BHK (Type-2)</h5>
+                                            <p>BUA-1254.06 Sq. Ft. </p>
+                                            <p>SBUA-1630.28 Sq. Ft</p>
+                                        </div>
                                     </div>
-                                    <div class="img_box">
-                                        <img src="Images/3bhk5.png" alt="">
-                                        <h5>3 BHK (Type-3)</h5>
-                                        <p>BUA-1241.81 Sq. Ft.</p>
-                                        <p>SBUA-1614.35 Sq. Ft.</p>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk5.png" alt="">
+                                            <h5>3 BHK (Type-3)</h5>
+                                            <p>BUA-1241.81 Sq. Ft.</p>
+                                            <p>SBUA-1614.35 Sq. Ft.</p>
+                                        </div>
                                     </div>
-                                    <div class="img_box">
-                                        <img src="Images/3bhk6.png" alt="">
-                                        <h5>3 BHK (Type-4)</h5>
-                                        <p>BUA-1063.25 Sq. Ft. </p>
-                                        <p>SBUA-1382.23 Sq. Ft.</p>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="img_box">
+                                            <img src="Images/3bhk6.png" alt="">
+                                            <h5>3 BHK (Type-4)</h5>
+                                            <p>BUA-1063.25 Sq. Ft. </p>
+                                            <p>SBUA-1382.23 Sq. Ft.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="carouselExampleInterval d-none d-sm-none d-md-none d-lg-none d-xl-none" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                                        <div class="carousel-item active" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk.png" alt="">
+                                                <h5>3 BHK+s (Type-1)</h5>
+                                                <p>BUA-1671.51 Sq. Ft</p>
+                                                <p>SBUA-2172.96 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk2.png" alt="">
+                                                <h5>3 BHK+s (Type-2)</h5>
+                                                <p>BUA-1671.51 Sq. Ft.</p>
+                                                <p>SBUA-2172.96 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk3.png" alt="">
+                                                <h5>3 BHK (Type-1)</h5>
+                                                <p>BUA-1254.06 Sq. Ft.</p>
+                                                <p>SBUA-1630.28 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk4.png" alt="">
+                                                <h5>3 BHK (Type-2)</h5>
+                                                <p>BUA-1254.06 Sq. Ft. </p>
+                                                <p>SBUA-1630.28 Sq. Ft</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk5.png" alt="">
+                                                <h5>3 BHK (Type-3)</h5>
+                                                <p>BUA-1241.81 Sq. Ft.</p>
+                                                <p>SBUA-1614.35 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/3bhk6.png" alt="">
+                                                <h5>3 BHK (Type-4)</h5>
+                                                <p>BUA-1063.25 Sq. Ft. </p>
+                                                <p>SBUA-1382.23 Sq. Ft.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel"
                                 aria-labelledby="pills-profile-tab" tabindex="0">
-                                <div class="d-flex justify-content-evenly gap-2 flex-wrap">
+                                <div class="d-none d-sm-flex d-lg-flex d-xl-flex d-md-flex justify-content-evenly gap-2 flex-wrap">
                                     <div class="img_box">
                                         <img src="Images/4bhk1.png" alt="">
                                         <h5>4 BHK+S (Type-2)</h5>
@@ -286,7 +362,46 @@
                                         <p>SBUA-2678.44 Sq. Ft</p>
                                     </div>
                                 </div>
+                                <div id="carouselExampleInterval d-block d-sm-none d-md-none d-lg-none d-xl-none" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner  d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                                        <div class="carousel-item active" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/4bhk1.png" alt="">
+                                                <h5>4 BHK+S (Type-2)</h5>
+                                                <p>BUA-2032.57 Sq. Ft.</p>
+                                                <p>SBUA-2642.34 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/4bhk2.png" alt="">
+                                                <h5>4 BHK+S (Type-3)</h5>
+                                                <p>BUA-2006.09 Sq. Ft.</p>
+                                                <p>SBUA-2607.92 Sq. Ft</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/4bhk3.png" alt="">
+                                                <h5>4 BHK+S (Type-4)</h5>
+                                                <p>BUA-2006.57 Sq. Ft.</p>
+                                                <p>SBUA-2608.54 Sq. Ft.</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="1800">
+                                            <div class="img_box">
+                                                <img src="Images/4bhk4.png" alt="">
+                                                <h5>4 BHK+S (Type-5)</h5>
+                                                <p>BUA-2060.34 Sq. Ft.</p>
+                                                <p>SBUA-2678.44 Sq. Ft</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-3">
+                            <button><a href="#contact">Ask For Price</a></button>
                         </div>
                     </div>
                 </div>
@@ -311,22 +426,22 @@
             <img src="Images/Rectangle 34.png" class="image-2 img-fluid" alt="">
         </section>
         <section class="mid-banner py-5">
-            <div class="container-fluid py-5">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2>Actual Site Pictures</h2>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 my-2">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 mt-5">
                         <img src="Images/work1.jpg" width="100%" height="auto" alt="">
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 my-2">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 mt-5">
                         <img src="Images/work2.jpg" width="100%" height="auto" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="luxuary py-lg-0 py-4">
-            <div class="container-fluid">
+        <section class="luxuary py-lg-0 pt-5" style="overflow: hidden;">
+            <div class="container-fluid px-0">
                 <div class="row">
                     <div class="col-md-6 d-flex justify-content-center flex-column right-box ps-lg-5 ps-xl-5 my-3">
                         <h2>WHERE LUXURY MEETS <span>ELEGANCE</span> </h2>
@@ -341,18 +456,18 @@
                         <button><a href="#contact">Ask For Price</a></button>
                     </div>
                     <div class="col-md-6 my-3 left-box">
-                        <img src="Images/image_13.png" width="100%" height="auto" alt="">
+                        <img src="Images/image_13.png" width="100%" height="500" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="value py-lg-0 py-4">
-            <div class="container-fluid">
+        <section class="value py-lg-0 pb-5" style="overflow: hidden;">
+            <div class="container-fluid px-0">
                 <div class="row">
-                    <div class="col-md-6 my-3">
-                        <img src="Images/image 14.png" width="100%" height="auto" alt="">
+                    <div class="col-md-6 my-2 order-lg-1 order-2">
+                        <img src="Images/image 14.png" width="100%" height="500" alt="">
                     </div>
-                    <div class="col-md-6 justify-content-center d-flex flex-column">
+                    <div class="col-md-6 justify-content-center d-flex flex-column order-lg-2 order-1">
                         <h2>VALUE FOR EXCELLENCE</h2>
                         <p>Its architecture intricately weaves life's details into a surprising, enriching experience.
                             Abundant green spaces and activities enrich daily life. A holistic lifestyle design
@@ -373,7 +488,8 @@
                         <h2>LOCATION FOR EXCELLENCE</h2>
                         <p>Akshar offers a well-placed life located at the much sought-after location of Patrakar
                             Colony. The <br> project comfortably connects to all important places of the city without
-                            compromising its <br> uniqueness. Our project is an invitation to be a part of a world that is
+                            compromising its <br> uniqueness. Our project is an invitation to be a part of a world that
+                            is
                             simply out-of-the-world.</p>
                         <img src="Images/Akshar-E-Brochure.png" class="img-fluid mb-5" alt="">
                     </div>
@@ -430,26 +546,33 @@
                     <div class="col-12 text-center">
                         <h2>Our Customers Love Us</h2>
                     </div>
-                    <div class="col-md-4 my-4 text-center">
-                        <div class="box py-4 px-3">
+                    <div class="col-lg-4 col-12 col-md-6  my-2  text-center">
+                        <div class="box py-4 px-3 h-100">
                             <img src="Images/Frame.png" height="45" width="auto" alt="">
-                            <p>Project is already gathering a lot of appreciation for its location, planning and design. If anyone is looking for a real luxury home than this is the one. KGK Realty's background of more than a decade along with its superior performance parameters confirms the credibility which is the key in real estate.</p>
+                            <p>Project is already gathering a lot of appreciation for its location, planning and design.
+                                If anyone is looking for a real luxury home than this is the one. KGK Realty's
+                                background of more than a decade along with its superior performance parameters confirms
+                                the credibility which is the key in real estate.</p>
                             <h4>Saurbh Joshi</h4>
                             <h6>Delhi</h6>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <div class="box py-5 px-3">
-                            <img src="Images/Frame.png" height="53" width="auto" alt="">
-                            <p>Amazing property located right in heart of Jaipur in Mansarovar area. Visited the sales office recently and was delighted by the staff. The site plan and the features look promising.</p>
+                    <div class="col-lg-4 col-12 col-md-6  my-2 text-center">
+                        <div class="box py-4 px-3 h-100">
+                            <img src="Images/Frame.png" height="45" width="auto" alt="">
+                            <p>Amazing property located right in heart of Jaipur in Mansarovar area. Visited the sales
+                                office recently and was delighted by the staff. The site plan and the features look
+                                promising.</p>
                             <h4>Shivraj Singh</h4>
                             <h6>Jaipur,Rajasthan</h6>
                         </div>
                     </div>
-                    <div class="col-md-4 my-4 text-center">
-                        <div class="box py-4 px-3">
+                    <div class="col-lg-4 col-12 col-md-6  my-2  text-center">
+                        <div class="box py-4 px-3 h-100">
                             <img src="Images/Frame.png" height="45" width="auto" alt="">
-                            <p>It's premium location and worth buying as per the amenities and facilities it's luxury lifestyle which KGK is offering here with a huge bunch of Amenities. I recommend visiting it once</p>
+                            <p>It's premium location and worth buying as per the amenities and facilities it's luxury
+                                lifestyle which KGK is offering here with a huge bunch of Amenities. I recommend
+                                visiting it once</p>
                             <h4>Vikram</h4>
                             <h6>Bikaner Rajasthan</h6>
                         </div>
@@ -480,27 +603,29 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="form_box">
-                            <img src="Images/Group.png" alt="">
-                            <h5>Get in touch</h5>
-                            <form action="">
-                                <div class="row mt-4">
-                                    <input type="text" placeholder="Name" class="col-12">
-                                </div>
-                                <div class="row mt-4">
-                                    <input type="number" placeholder="Phone Number" class="col-12">
-                                </div>
-                                <div class="row mt-4">
-                                    <input type="email" placeholder="Email" class="col-12">
-                                </div>
-                                <div class="row mt-4">
-                                    <textarea class="col-12" placeholder="Messages" name="" id="" cols="30"
-                                        rows="10"></textarea>
-                                </div>
-                                <div class="row d-flex justify-content-center mt-2">
-                                    <button class="col-5"><a href="">Send</a></button>
-                                </div>
-                            </form>
+                        <div class="upper_form">
+                            <div class="form_box">
+                                <img src="Images/Group.png" alt="">
+                                <h5>Get in touch</h5>
+                                <form action="">
+                                    <div class="row mt-4">
+                                        <input type="text" placeholder="Name" class="col-12">
+                                    </div>
+                                    <div class="row mt-4">
+                                        <input type="number" placeholder="Phone Number" class="col-12">
+                                    </div>
+                                    <div class="row mt-4">
+                                        <input type="email" placeholder="Email" class="col-12">
+                                    </div>
+                                    <div class="row mt-4">
+                                        <textarea class="col-12" placeholder="Messages" name="" id="" cols="30"
+                                            rows="10"></textarea>
+                                    </div>
+                                    <div class="row d-flex justify-content-center mt-4">
+                                        <button style="border-radius: 49.92px;"><a href="">Send</a></button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

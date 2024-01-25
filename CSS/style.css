@@ -52,19 +52,43 @@ letter-spacing: 0.4px;
 }
 
 .banner{
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../Images/Banner.png);
+  background: linear-gradient(268.84deg, rgba(26, 26, 26, 0.67) 10.19%, rgba(0, 0, 0, 0) 83.53%),url(../Images/Banner.png);
   /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
+  position: relative;
+  z-index: 2000;
 }
+
 
 .banner .col-12{
   display: flex;
   align-items: end;
   justify-content: center;
   flex-direction: column;
-  height: 600px;
+  height: 700px;
+}
+
+@media (max-width:576px) {
+  .banner{
+    background: linear-gradient(268.84deg, rgba(26, 26, 26, 0.67) 10.19%, rgba(0, 0, 0, 0) 83.53%),url(../Images/Banner.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    z-index: 2000;
+  }
+  
+  
+  .banner .col-12{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    height: 550px;
+  }
 }
 
 .banner h2{
@@ -75,13 +99,47 @@ font-weight: 100;
 text-align: right;
 }
 
-.banner span{
-font-family: outfit;
-font-size: 70px;
-font-weight: 100;
-text-align: right;
-color: #FFFFFF;
+/* .test_banner{
+  margin-bottom: 100px;
+}
 
+.test_banner{
+    background-image: url(../Images/banner_back.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 654px;
+    position: relative;
+    object-fit: cover;
+}
+
+.test_banner img{
+  object-fit: cover;
+} */
+
+.call_btn{
+  position: fixed;
+  rotate: 90deg;
+  z-index: 5000;
+  right: -25px;
+  bottom: 100px;
+}
+
+.call_btn button{
+  background: #FFFFFF;
+  padding: 8px 15px;
+  border: 1px solid #e0af38;
+}
+
+.call_btn button a{
+  color: #891A3F;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bg_white{
+  margin-top: -280px;
 }
 
 @media (max-width:576px) {
@@ -203,12 +261,23 @@ text-transform: capitalize !important;
 }
 
 
-.mid-banner .container-fluid{
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,.4)), url(../Images/image\ 12.png) center center;
+.mid-banner{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,.8)), url(../Images/image\ 12.png) center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: auto;
+}
+
+@media (max-width:576px) {
+  .luxuary img{
+    height: auto;
+  }
+
+  .value img{
+    height: auto;
+  }
+
 }
 
 .mid-banner h2{
@@ -239,6 +308,23 @@ text-transform: uppercase;
     background-size: cover;
     padding: 50px 0px;
   }
+}
+
+.floor button{
+   padding: 12px 22px;
+   border-radius: 30px;
+   border: none;
+}
+
+.floor button a{
+  font-family: outfit;
+font-size: 20px;
+text-decoration: none;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #891A3F;
 }
 
 .floor .img_box{
@@ -527,6 +613,12 @@ color: #000000;
   width: 100%;
 }
 
+@media (max-width:576px) {
+  .wide_box{
+    display: none;
+  }
+}
+
 .form{
   background-color: #000000;
   padding-top: 6rem;
@@ -583,6 +675,13 @@ font-weight: 400;
 line-height: 29.986px; /* 143.87% */
 }
 
+.upper_form{
+  border: 3px solid #000000;
+  border-radius: 40px;
+  padding: 8px;
+  margin-top: -190px;
+}
+
 .form .form_box{
   background: #F3F3F3;
   border-radius: 46px;
@@ -590,12 +689,12 @@ line-height: 29.986px; /* 143.87% */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: -190px;
+  
   box-shadow: 0px 2.8941469192504883px 21.127273559570312px 0px #00000040;
 }
 
 @media (max-width:769px) {
-  .form .form_box{
+  .form .upper_form{
     margin-top: 10px;
   }
 }
